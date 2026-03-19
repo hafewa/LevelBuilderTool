@@ -35,6 +35,7 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 2
+    chanceOfSpawning: 0
     chanceOfSelection: 0
   - prefab: {fileID: 919132149155446097, guid: 0ff8e0b52b24dfa4ea69d26a55da9872, type: 3}
     randomizePosition: 1
@@ -57,6 +58,7 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 2
+    chanceOfSpawning: 0
     chanceOfSelection: 0
   - prefab: {fileID: 919132149155446097, guid: 3b5dbf3b38122f742adb1d519dc595f1, type: 3}
     randomizePosition: 1
@@ -79,6 +81,7 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 2
+    chanceOfSpawning: 0
     chanceOfSelection: 0
   - prefab: {fileID: 8225666730517559648, guid: 42532e0e768bf4748a9214697d5e90b6, type: 3}
     randomizePosition: 0
@@ -101,6 +104,7 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 1
+    chanceOfSpawning: 50
     chanceOfSelection: 0
   - prefab: {fileID: 6372874583609320121, guid: cc23f959c4b4a1645b89a9ecfc561013, type: 3}
     randomizePosition: 0
@@ -123,6 +127,7 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 1
+    chanceOfSpawning: 100
     chanceOfSelection: 0
   - prefab: {fileID: 919132149155446097, guid: 3ffe2e68282014142b5791c526cd727b, type: 3}
     randomizePosition: 0
@@ -145,6 +150,30 @@ MonoBehaviour:
     - 1.2
     noOfPrefabPerTileMin: 1
     noOfPrefabPerTileMax: 1
+    chanceOfSpawning: 0
+    chanceOfSelection: 0
+  - prefab: {fileID: 919132149155446097, guid: 3ffe2e68282014142b5791c526cd727b, type: 3}
+    randomizePosition: 0
+    rangeRandomizationPosition: 1
+    specificPositions:
+    - {x: 0, y: 0, z: 0}
+    positionRange:
+    - {x: 0.6, y: 0.42, z: 0.19}
+    - {x: -0.84, y: -0.4, z: -0.22}
+    randomizeRotation: 0
+    rangeRandomizationRotation: 1
+    specificRotations:
+    - {x: 0, y: 0, z: 0}
+    rotationRange:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 360, z: 0}
+    randomizeScale: 0
+    scaleRange:
+    - 0.5
+    - 1.2
+    noOfPrefabPerTileMin: 1
+    noOfPrefabPerTileMax: 1
+    chanceOfSpawning: 0
     chanceOfSelection: 0
   GroupedPrefabs:
   - groupName: Chintu
@@ -162,6 +191,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 919132149155446097, guid: 748a121d012ac764ea5ac04c6fbe2ea8, type: 3}
       randomizePosition: 0
@@ -176,6 +206,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 4081982884376404337, guid: 0e0c197b115d55f4f9d24c7ce667f260, type: 3}
       randomizePosition: 0
@@ -190,6 +221,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 0
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 0
     - prefab: {fileID: 919132149155446097, guid: 3ffe2e68282014142b5791c526cd727b, type: 3}
       randomizePosition: 0
@@ -204,6 +236,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 0
       noOfPrefabPerTileMax: 20
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 919132149155446097, guid: ca6ebada5d64fbd428b760b8561dcb54, type: 3}
       randomizePosition: 0
@@ -219,6 +252,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     noOFDiffPrefabPerTile: 5
     maxNoOfAllPrefabsPerTile: 4
@@ -237,6 +271,7 @@ MonoBehaviour:
       scaleRange: []
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 3.22
     noOFDiffPrefabPerTile: 1
     maxNoOfAllPrefabsPerTile: 5
@@ -263,6 +298,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 2
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 919132149155446097, guid: 3b5dbf3b38122f742adb1d519dc595f1, type: 3}
       randomizePosition: 1
@@ -285,6 +321,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 2
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     noOFDiffPrefabPerTile: 1
     maxNoOfAllPrefabsPerTile: 5
@@ -311,6 +348,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 2
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 919132149155446097, guid: 3b5dbf3b38122f742adb1d519dc595f1, type: 3}
       randomizePosition: 1
@@ -333,6 +371,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 2
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 8225666730517559648, guid: 42532e0e768bf4748a9214697d5e90b6, type: 3}
       randomizePosition: 0
@@ -355,6 +394,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     noOFDiffPrefabPerTile: 1
     maxNoOfAllPrefabsPerTile: 5
@@ -381,6 +421,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 2
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 8225666730517559648, guid: 42532e0e768bf4748a9214697d5e90b6, type: 3}
       randomizePosition: 0
@@ -403,6 +444,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
     - prefab: {fileID: 6372874583609320121, guid: cc23f959c4b4a1645b89a9ecfc561013, type: 3}
       randomizePosition: 0
@@ -425,6 +467,7 @@ MonoBehaviour:
       - 1.2
       noOfPrefabPerTileMin: 1
       noOfPrefabPerTileMax: 1
+      chanceOfSpawning: 0
       chanceOfSelection: 1
-    noOFDiffPrefabPerTile: 1
+    noOFDiffPrefabPerTile: 3
     maxNoOfAllPrefabsPerTile: 5
